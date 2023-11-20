@@ -1,0 +1,47 @@
+* {
+  color: #fff;
+}
+.head {
+  height: 200px;
+  background-color: #d90000;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head p {
+  font-size: 20px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.cardcontent {
+  margin: 0;
+  border: 0;
+  max-width: 370px;
+  display: flex;
+  padding: 25px;
+  justify-content: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.cardwrapper {
+  max-width: 370px;
+  background-color: black;
+}
+p {
+  margin: 0;
+  text-align: left;
+}
+.profleimg {
+  width: 120px;
+  height: 120px;
+}
+.content p {
+  font-size: 13px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+.content span {
+  word-wrap: break-word;
+}
